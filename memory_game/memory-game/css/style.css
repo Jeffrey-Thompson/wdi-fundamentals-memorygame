@@ -55,11 +55,15 @@ a {
   margin: 0 20px;
   /* For hover style transition (bonus) */
   border-bottom: 2px solid transparent;
-/*   transition: all .3s ease-in-out; */
+  transition: all .3s ease-in-out; 
 }
 
 a:hover {
   border-bottom: 2px solid white;
+}
+
+.scoreboard {
+  border: 5px dotted black;
 }
 /* =============================
 HEADER
